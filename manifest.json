@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dotter Ohio",
+    "version": "2.0",
+    "description": "文字に疲れた全ての人へ",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
+}
